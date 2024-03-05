@@ -17,7 +17,7 @@ This Python script integrates artificial intelligence (AI) into the process of B
 To start mining, simply execute the script. It automatically initializes the mining process and continuously monitors for new blocks while adjusting mining parameters using AI predictions.
 
 ```bash
-python bitcoin_miner.py
+python SoloMining.py
 ```
 
 ## Requirements
