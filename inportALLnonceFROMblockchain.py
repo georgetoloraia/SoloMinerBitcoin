@@ -30,7 +30,7 @@ async def fetch_block_data(session, semaphore, block_url, height):
 async def extract_nonces():
     try:
         start_height = 0
-        end_height = 832290
+        end_height = 832290  # in end_height write current height
         esplora_api = 'https://blockchain.info'
         concurrency = 100  # Adjust the concurrency level as needed
         batch_size = 10  # Adjust the batch size as needed
